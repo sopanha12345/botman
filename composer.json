@@ -18,7 +18,8 @@
         "botman/tinker": "~1.0",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.7.*",
-        "laravel/tinker": "^1.0"
+        "laravel/tinker": "^1.0",
+        "symfony/dotenv": "^5.1"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
@@ -67,7 +68,6 @@
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover"
         ]
-        
     },
     "config": {
         "preferred-install": "dist",
